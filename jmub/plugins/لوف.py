@@ -13,7 +13,7 @@ from . import *
 
 @jmub.ar_cmd(incoming="لوف ?(.*)")
 async def _(event):
-    t = event.pattern_match.group(1)
+    cmd = "".join(event.message.message.split(maxsplit=1)[1:])
     if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
        await event.edit(f"""{t}{t}{t}{t}{t}{t}{t}{t}
 {t}{t}{t}{t}{t}{t}{t}{t}
