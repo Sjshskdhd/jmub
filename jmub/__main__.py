@@ -18,7 +18,7 @@ from .utils import (
     verifyLoggerGroup,
 )
 
-LOGS = logging.getLogger("سورس جمثون")
+LOGS = logging.getLogger("سورس عابث")
 
 cmdhr = Config.COMMAND_HAND_LER
 
