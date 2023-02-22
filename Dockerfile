@@ -1,6 +1,6 @@
 FROM thejmthon/jmub:slim-buster
 
-RUN git clone https://github.com/thejmthon/jmub.git /root/jmub
+استنساخ بوابة RUN https://github.com/Alapath1/jmub.git / root / jmub
 
 WORKDIR /root/jmub
 
