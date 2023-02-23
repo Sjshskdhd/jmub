@@ -3,14 +3,37 @@
 #الملـف متعـوب عليه تخمـط اذكر المصـدر
 #تعـديل بنيـتي 𝙈
 
-import random
+import asyncio
+import contextlib
+
+from telethon.errors import (
+    BadRequestError,
+    ImageProcessFailedError,
+    PhotoCropSizeSmallError,
+)
+from telethon.errors.rpcerrorlist import UserIdInvalidError
+from telethon.tl.functions.channels import (
+    EditAdminRequest,
+    EditBannedRequest,
+    EditPhotoRequest,
+)
+from telethon.tl.types import (
+    ChatAdminRights,
+    ChatBannedRights,
+    InputChatPhotoEmpty,
+    MessageMediaPhoto,
+)
+from telethon.utils import get_display_name
 
 from jmub import jmub
-from jmub.core.managers import edit_or_reply
-from jmub.helpers import get_user_from_event
-from razan.strings.fun import *
 
-from . import *
+from ..core.data import _sudousers_list
+from ..core.logger import logging
+from ..core.managers import edit_delete, edit_or_reply
+from ..helpers import media_type
+from ..helpers.utils import _format, get_user_from_event
+from ..sql_helper.mute_sql import is_muted, mute, unmute
+from . import BOTLOG, BOTLOG_CHATID
 
 plugin_category = "العروض"
 LOGS = logging.getLogger(__name__)
