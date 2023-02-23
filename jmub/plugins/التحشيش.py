@@ -19,7 +19,7 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -37,7 +37,7 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -111,7 +111,7 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -130,7 +130,7 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -480,7 +480,7 @@ async def zed(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -492,7 +492,7 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -504,7 +504,7 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -516,7 +516,7 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -544,7 +544,7 @@ async def zed(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -558,7 +558,7 @@ async def zed(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -572,7 +572,7 @@ async def zed(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -586,7 +586,7 @@ async def zed(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -600,7 +600,7 @@ async def zed(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -614,7 +614,7 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -630,7 +630,7 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -648,7 +648,7 @@ async def zed(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -682,7 +682,7 @@ async def zed(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -696,7 +696,7 @@ async def zed(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -710,7 +710,7 @@ async def zed(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -734,7 +734,7 @@ async def zed(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
@@ -788,7 +788,7 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in zel_dev:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك هـذا مطـور . . شما حجيت ماكـدر اوصفـه 🙊💘 ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك هـذا تاج راسك العابث . . شما حجيت ماكـدر اوصفـه 🙊💘 ❏╰**")
@@ -800,7 +800,7 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id in self_user:
+    if user.id in :
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا احـد المطـورين المساعديـن  ❏╰**")
     if user.id == 5093806483 or user.id == 1895219306 or user.id == 2095357462:
         return await edit_or_reply(mention, f"**╮ ❐ لك دي . . هـذا مطـور السـورس  ❏╰**")
