@@ -430,8 +430,8 @@ async def ifetch_info(replied_user, event):
 @jmub.ar_cmd(pattern="مشهور(?: |$)(.*)")
 async def who(event):
     r_msg = await event.get_reply_message(event, "⇆")
-    if not os.path.isdir(Config.TMP_DOWNLOAD_DIRECTORY):
-        os.makedirs(Config.TMP_DOWNLOAD_DIRECTORY)
+    if not os.path.isdir(Config.Message.get_reply_message):
+        os.makedirs(Config.Message.get_reply_message)
     replied_user = await get_user_from_event(event)
     try:
         ZEED_IMG, caption = await fetch_info(replied_user, event)
@@ -458,8 +458,8 @@ async def who(event):
 @jmub.ar_cmd(pattern="مشهوره(?: |$)(.*)")
 async def who(event):
     r_msg = await event.get_reply_message(event, "⇆")
-    if not os.path.isdir(Config.TMP_DOWNLOAD_DIRECTORY):
-        os.makedirs(Config.TMP_DOWNLOAD_DIRECTORY)
+    if not os.path.isdir(Config.Message.get_reply_message):
+        os.makedirs(Config.Message.get_reply_message)
     replied_user = await get_user_from_event(event)
     try:
         GZED_IMG, caption = await ifetch_info(replied_user, event)
@@ -486,8 +486,8 @@ async def who(event):
 @jmub.ar_cmd(pattern="زاحف(?: |$)(.*)")
 async def who(event):
     r_msg = await event.get_reply_message(event, "⇆")
-    if not os.path.isdir(Config.TMP_DOWNLOAD_DIRECTORY):
-        os.makedirs(Config.TMP_DOWNLOAD_DIRECTORY)
+    if not os.path.isdir(Config.Message.get_reply_message):
+        os.makedirs(Config.Message.get_reply_message)
     replied_user = await get_user_from_event(event)
     try:
         ZEED_IMG, caption = await zfetch_info(replied_user, event)
